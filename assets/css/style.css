@@ -55,11 +55,7 @@ p {
 }
 
 .hero {
-<<<<<<< HEAD
-    height: 800px;
-=======
-    height: 1000px;
->>>>>>> ab562ca5596bbfc73166b9f10961fcc527582e2d
+    height: 1100px;
     width: 100%;
     margin-bottom: 25px;
     background-image: url("../images/digital-marketing-meeting.jpg");
@@ -78,7 +74,7 @@ p {
 }
 
 .content {
-    width: 75%;
+    width: 100%;
     display: inline-block;
     margin-left: 20px;
 }
@@ -94,27 +90,27 @@ p {
     background-color: #2589bd;
 }
 
-.benefit-lead {
+/* .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
 .benefit-brand {
     margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
+    color: #ffffff; 
+} */
+/*There were 3 classes defined for benefit with the same attributes. I've removed two of them as these attributes applies to all of them*/
+.benefit {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
-.benefit-lead h3 {
+/*There were 3 classes defined for benefit h3 elements, with the same attributes. I've removed two of them as these attributes applies to all of them*/
+.benefit h3 {
     margin-bottom: 10px;
     text-align: center;
 }
 
-.benefit-brand h3 {
+/* .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
 }
@@ -122,15 +118,15 @@ p {
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
-}
-
-.benefit-lead img {
+} */
+/*There were 3 classes defined for benefit img elements with the same attributes. I've removed two of them as these attributes applies to all of them*/
+.benefit img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.benefit-brand img {
+/* .benefit-brand img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
@@ -140,7 +136,7 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
-}
+} */
 
 .search-engine-optimization {
     margin-bottom: 20px;
@@ -168,25 +164,25 @@ p {
     background-color: #0072bb;
     color: #ffffff;
 }
-
-.search-engine-optimization img {
+/*There were 3 classes defined with the same attributes. I've removed two of them as these attributes applies to all of them*/
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
 
-.online-reputation-management img {
+/* .online-reputation-management img {
     max-height: 200px;
 }
 
 .social-media-marketing img {
     max-height: 200px;
-}
+} */
 
-.search-engine-optimization h2 {
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-.online-reputation-management h2 {
+/* .online-reputation-management h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
@@ -194,7 +190,7 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
+} */
 /*Removed the dot in front of footer because it is not a class anyore, as I've replaced it in index file, with html semantic element footer */
 footer {
     padding: 30px;
