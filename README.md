@@ -5,16 +5,16 @@
 <p dir="auto">This repository ("<code>horizon-1</code>") is where I (Marilena) re-factor the code for the Horiseon solution webpage. 
   <a href="file:///C:/Users/maril/bootcamp/WEEK1/day-4/UBHM-VIRT-FSF-PT-11-2022-U-LOLC-2-main/week-1-html-git-github-module/04-code-refactor-lesson/challenge/starter/index.html"></a>
 </p>
-<p dir="auto">I was given this code and I've been asked to re-factor it in order to make it accesible and optimized for searc engines.</p>
+<p dir="auto">I was given this code and I've been asked to re-factor it in order to make it accesible and optimized for search engines.</p>
 Checked the links within the html file - the link to OSE was broken, so I had to add the ID for it to fix the link.
-                                                         
+ Below are some changes I've made so that the site is optimized for search engines:                          
 I've replaced the division 'div' for footer with semantic tag 'footer'.
-I've replaced divs with article html semantic alements, in order to improve operation of search engine.
-I've created a main content, where the cntent is tagged as articles and aside, html semantic elements. They are styled in css file to be listed in rows, to the left of the page.
+I've replaced divs with article html semantic elements, in order to improve operation of search engine.
+I've created a main content, where the content is tagged as articles and aside, html semantic elements. They are styled in css file to be listed in rows, to the left of the page.
 
 
 I have been using this site to arrange the elements in the page header: https://css-tricks.com/snippets/css/a-guide-to-flexbox/
 and https://www.w3schools.com/html/html5_semantic_elements.asp for semantic elements.
 ![alt text](assets/images/screenshot.png)
-The link to the repository called horizon-1 is https://github.com/Marilena-C/horizon-1
-Your site is live at https://marilena-c.github.io/horizon-1/
+<p dir="auto">The link to the repository called horizon-1 is https://github.com/Marilena-C/horizon-1</p>
+<p dir="auto">The site is live at https://marilena-c.github.io/horizon-1/</p>
